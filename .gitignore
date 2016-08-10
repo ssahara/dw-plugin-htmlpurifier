@@ -1,3 +1,8 @@
+# .gitignore for repository
+/library/HTMLPurifier/DefinitionCache/*
+!/library/HTMLPurifier/DefinitionCache/README
+
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
