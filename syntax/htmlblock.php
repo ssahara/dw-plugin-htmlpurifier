@@ -10,8 +10,7 @@ require_once(dirname(__FILE__).'/html.php');
 
 class syntax_plugin_htmlpurifier_htmlblock extends Syntax_Plugin_htmlpurifier_html {
 
-    protected $entry_pattern    = '<HTML>(?=.*?</HTML>)';
-    protected $exit_pattern     = '</HTML>';
+    protected $match_pattern    = '<HTML\b[^>\r\n]*?>.*?</HTML>';
 
     function getType()  { return 'protected'; }
     function getPType() { return 'block'; }

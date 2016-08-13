@@ -1,7 +1,7 @@
 base   htmlpurifier
 author Satoshi Sahara
 email  sahara.satoshi@gmail.com
-date   2016-08-08 beta
+date   2016-08-13 beta
 name   HTML Purifier
 desc   Integrate HTML Purifier to ensure safe and clean output of embedded HTML code in wiki pages.
 url    https://github.com/ssahara/dw-plugin-htmlpurifier
